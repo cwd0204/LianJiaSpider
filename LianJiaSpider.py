@@ -5,7 +5,8 @@
 """
 
 import re
-import urllib2  
+# import urllib2  
+import urllib.request as urllib2
 import sqlite3
 import random
 import threading
